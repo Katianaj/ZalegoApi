@@ -14,6 +14,8 @@ $password = $_POST['password'];
 	// array for JSON response
 	//$response = array();
 	
+	
+	
 	$result = "INSERT INTO zalego_db(first_name,email,gender,language,date_of_birth,password)VALUES('" . $firstname . "','" . $email . "','".$gender."','".$language."','".$date_of_birth."','".$password."') ";
 	
 	$item = mysqli_query($link, $result);
